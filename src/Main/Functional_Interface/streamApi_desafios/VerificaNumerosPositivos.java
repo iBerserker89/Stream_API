@@ -18,11 +18,11 @@ public class VerificaNumerosPositivos {
       boolean resultado1 = numeros1.stream()
                 .allMatch(n -> n >= 0);
 
-        boolean resultado2 = numeros2.stream()
-                .allMatch(n -> n >= 0);
+      boolean resultado2 = numeros2.stream()
+              .allMatch(n -> n >= 0);
 
-        System.out.println("Todos os itens da lista numeros1 são positivos? " + resultado1);
+      System.out.println("Todos os itens da lista numeros1 são positivos? " + resultado1);
 
-        System.out.println("Todos os itens da lista numeros2 são positivos? " + resultado2);
+      System.out.println("Todos os itens da lista numeros2 são positivos? " + resultado2);
     }
 }
